@@ -87,6 +87,7 @@ const Navbar = () => {
           <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/collection'>COLLECTION</NavLink>
           <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/about'>ABOUT</NavLink>
           <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink>
+          <a href="https://ecommerce-admin-five-lyart.vercel.app/" target="_blank" class="py-2 pl-6 border">ADMIN PANEL</a>
         </div>
       </div>
 
